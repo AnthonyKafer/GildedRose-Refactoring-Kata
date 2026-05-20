@@ -40,7 +40,7 @@ public class Program
 
         var app = new GildedRose(items);
 
-        int days = 3000;
+        int days = 2;
         if (args.Length > 0)
         {
             days = int.Parse(args[0]) + 1;
